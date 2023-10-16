@@ -1,0 +1,2278 @@
+
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <style>
+body {
+    background-color: grey;
+}
+
+.banner {
+    text-align:center;
+}
+
+#bannerImage{
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+  height: 315px;
+  width: 560px;
+}
+
+/* Style for Extra Large Screen */
+@media (max-width:1199px) {
+  iframe {
+      height: 315px;
+      width: 560px;
+  }
+}
+
+/* Style for Large Screen */
+@media (max-width:991px) {
+  iframe {
+      height: 315px;
+      width: 560px;
+  }
+}
+
+/* Style for Medium Screen */
+@media (max-width:767px) {
+  iframe {
+      height: 315px;
+      width: 560px;
+  }
+}
+
+/* Style for Small Screen */
+@media (max-width:575px) {
+  iframe {
+      height: 200px;
+      width: 325px;
+  }
+}
+
+
+
+
+#intro {
+    height: 41.5vh;
+  }
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+#intro {
+    margin-top: -58.59px;
+}
+}
+
+.navbar .nav-link {
+color: #fff !important;
+}
+
+
+
+.navbar-header{
+    background-color: darkgray;
+}
+
+#gokuImage{
+    height: 40px;
+}
+
+.outter {
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.my-container {
+     /* border: 5px solid green; */
+     margin: 0;
+     padding: 1%;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     max-width: 99%;
+ }
+
+/* .my-row {
+    border: 5px solid pink;
+    max-width: 100%;
+} */
+
+.my-col-left {
+    /* border: 5px solid purple; */
+    max-width: 50%;
+}
+
+.my-col-mid {
+    /* border: 5px solid red; */
+    max-width: 20%;
+}
+
+.my-col-right {
+    /* border: 5px solid blue; */
+    max-width: 50%;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.adspace {
+    height: 50px;
+    width: 100%;
+    background-color: #7c725d;
+  }
+
+
+.imgContainer {
+    max-width: 1000px;
+    margin: auto;
+    border: white solid3px;
+    background-color: white;
+}
+
+.main-img img, 
+.imgs img {
+    width: 100%;
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+
+.ref-imgs img {
+    width: 100%;
+}
+
+.ref-imgs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* grid-template-columns: repeat(6, 1fr); */
+    grid-gap: 5px;
+}
+
+.checksheet-bg {
+    max-width: 1500px;
+    /* min-width: 1000px; */
+    background-color: rgb(255, 255, 255);
+    border: black solid;
+}
+
+
+.check-title {
+    max-width: 1500px;
+    /* min-width: 650px; */
+    height: 120px;
+    background-color: #fa9c59;
+    /* background: linear-gradient(
+      45deg,
+      rgba(248, 224, 6, 0.986),
+      rgb(255, 153, 0) 100%
+    ); */
+    /* border-bottom: black solid 1px; */
+}
+
+.check-title-under {
+    max-width: 1500px;
+    /* min-width: 650px; */
+    height: 50px;
+    background-color: #d2691e;
+    border-bottom: black solid 2px;
+    position: relative;
+}
+
+.check-title-img1 {
+    /* height: 60px; */
+    /* float: right; */
+    /* margin-right: 10px; */
+    position: relative;
+    max-width: 100%;
+    max-height: 120px;
+    height: auto;
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+}
+
+.check-title-img2 {
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.check-title-img3 {
+    height: 70px;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.check-title-img4 {
+    height: 100px;
+    float: middle;
+    position: relative;
+    /* top: 50%; */
+    transform: translateY(-50%);
+    transform: translateX(10%);
+}
+
+.check-imgs img {
+    border: black solid;
+    margin-top: 5px;
+    margin-left: 3px;
+    width: calc(100% - 20px);
+}
+
+.check-imgs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 5px;
+}
+
+.mybox {
+    border: black solid;
+    color: #111111;
+    border-width: 2px;
+    /* transform: translateY(-20%); */
+    width: 40px;
+    height: 19px;
+    margin: auto;
+    text-align: center; vertical-align: middle; line-height: 15px;
+    /* display: inline-block; */
+    font-weight: bold;
+    transform: translateY(10%);
+
+}
+
+
+.retail {
+    color: rgba(0, 0, 0, 0.699);
+    transform: translateY(50%);
+    font-size: 80%;
+    margin-bottom: 4px;
+    /* margin-top: 5px;
+    margin-left: 3px; */
+    width: calc(100% - 20px);
+}
+
+.card-gallery {
+    /* max-width: 760px; */
+    background-color: white;
+    margin: auto;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.article-title {
+    /* max-width: 760px; */
+    background-color: rgb(209, 209, 209);
+    /* margin: auto;
+    border-style: solid; */
+    border-radius: 15px;
+}
+
+/* Fade in animation for gallery */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in 1 forwards;
+}
+
+
+.loader{
+    width:100%;
+    height:100%;
+    position:absolute;
+    background:rgba(0,0,0,.5);
+    z-index:1;
+    top:0;
+}
+
+.viewer{
+    position:relative;
+    width: 550px;
+    height:550px;
+    overflow:hidden;
+    /* background-color: rgb(0, 183, 255); */
+    text-align: center;
+    border:1px solid #ccc;
+    display: inline-block; 
+}
+
+#master{
+    width: 100%;
+    text-align: center; 
+}
+
+
+#master img{
+    width:auto;
+    height:100%;
+    }
+
+#master img.draggable{
+    cursor:grab}
+
+
+hr.rounded {
+    border-top: 8px solid rgb(248, 28, 28);
+    border-radius: 5px;
+    }
+
+#tslogo {
+    max-width: 200px;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+.holder360 {
+    align-content: center;
+}
+
+
+#returnBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(243, 131, 66, 0.637);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #returnBtn:hover {
+    background-color: #555;
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2195f381;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+  :root {
+
+    --transition-speed: 600ms;
+  }
+
+
+
+
+  body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #834e00;
+  }
+
+
+  main {
+    margin-left: 5rem;
+    padding: 1rem;
+  }
+
+
+  .main-content {
+      text-align: center;
+  }
+
+  .responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .responsive2 {
+    width: 100%;
+    height: auto;
+  }
+
+
+.fa-primary,
+.fa-secondary {
+    transition: var(--transition-speed);
+}
+
+/* .logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    font-size: 1.5rem;
+    letter-spacing: 0.3ch;
+    width: 100%;
+  }
+  
+  .logo svg {
+    transform: rotate(0deg);
+    transition: var(--transition-speed);
+  }
+  
+  .logo-change {
+    animation: color-change 2s infinite;
+  } */
+  
+  @keyframes color-change {
+    0% { color: rgb(255, 154, 4); }
+    50% { color: rgb(255, 255, 255); }
+    100% { color: rgb(253, 173, 0); }
+  }
+
+
+  .sidebar:hover .logo svg {
+    transform: rotate(-180deg);
+  }
+
+
+.style {
+  border-radius: 24px;
+  background: #1d1d1d;
+  box-shadow: inset 11px 11px 22px #131313,
+              inset -11px -11px 22px #272727;
+}
+
+.style2 {
+  border-radius: 24px;
+background: linear-gradient(145deg, #1f1f1f, #1a1a1a);
+box-shadow:  11px 11px 22px #131313,
+             -11px -11px 22px #272727;
+}
+
+.style3 {
+  border-radius: 24px;
+background: #1d1d1d;
+box-shadow:  11px 11px 22px #131313,
+             -11px -11px 22px #272727;
+}
+
+.style4 {
+  border-radius: 50px;
+  background: #1d1d1d;
+  box-shadow: inset 10px 10px 20px #111111,
+              inset -10px -10px 20px #292929;
+}
+
+.style5 {
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: inset -19px -19px 38px #f5f5f5,
+              inset 19px 19px 38px #ffffff;
+}
+
+
+h2 {
+  background-image: linear-gradient(-45deg, #ffd341, #ffb74a, #fab727, #ff8a2a) !important;
+  /* background-image: linear-gradient(-45deg, #cc2b5e, #FF0099, #f56a4c) !important; */
+  background-size: 400% !important;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: Gradient 6s ease infinite !important;
+  -moz-animation: Gradient 6s ease infinite !important;
+  animation: Gradient 6s ease infinite !important;}
+
+
+
+@-webkit-keyframes Gradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}}
+
+@-moz-keyframes Gradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}}
+
+@keyframes Gradient { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}}
+</style>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179515468-1');
+</script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Rockchala is the ultimate resource for Dragonball, Dragonball Z, and Dragonball Super Tamashii Nations S.H Figuarts collectable action figures! Product accessory lists, 360 images, galleries, figure checklist maker, and the latest news!">
+<link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/static/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/icon/favicon-16x16.png">
+<link rel="manifest" href="/static/icon/site.webmanifest">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <script src="https://superal.github.io/canvas2image/canvas2image.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-alpha2/html2canvas.min.js" integrity="sha512-CJi0bpUbf0lNblXz2lmO5mtVBlWi4XLoJjspIsuDemuYf0DbrQnuR/aXvvEpOjr6pyD0iJqeFnljtfcEZ4tYCg==" crossorigin="anonymous"></script>
+
+
+    <title>ROCKCHALA: S.H.Figuarts Dragonball Checklist</title>
+</head>
+
+<body style="background-color: rgb(29, 29, 29);">
+    
+<div class="banner" style="background: linear-gradient(45deg,  rgba(248, 224, 6, 0.986),rgb(255, 153, 0) 100%); padding-top: 5px; padding-bottom: 5px;">
+    <img src="https://www.rockchala.com/static/logo/banner.png" alt="Rock the Dragon" id="bannerImage">
+  </div>    
+      
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark myNavbar bg-dark  sticky-top" style="z-index: 2000;">
+    <div class="container-fluid">
+      <!-- Navbar brand -->
+      <a class="navbar-brand nav-link"  href="/">
+        <strong>ROCKCHALA</strong>
+      </a>
+  
+      
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="collapse_target">
+  
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-expanded="false"  style="color: orange !Important;">
+            <i class="fas fa-images"></i> NEWS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/dbz">Dragonball S.H.Figuarts</a>
+            <a class="dropdown-item" href="/jjk">Jujutsu Kaisen S.H.Figuarts</a>
+            <a class="dropdown-item" href="/naruto">Naruto S.H.Figuarts</a>
+            <a class="dropdown-item" href="/shma">S.H.Monsterarts</a>
+          </div>
+        </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-expanded="false" style="color: orange !Important;">
+              <i class="fas fa-images"></i> REFERENCE
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/reference">Dragonball S.H.Figuarts</a>
+              <a class="dropdown-item" href="/jjk/reference">Jujutsu Kaisen S.H.Figuarts</a>
+              <a class="dropdown-item" href="/naruto/reference">Naruto S.H.Figuarts</a>
+              <a class="dropdown-item" href="/shma/reference">S.H.Monsterarts</a>
+            </div>
+          </li> 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-expanded="false"  style="color: orange !Important;">
+              <i class="fas fa-clipboard-check"></i> CHECKLIST MAKER
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/checksheet">Dragonball S.H.Figuarts</a>
+              <a class="dropdown-item" href="/dbz/dragonballs">Dragonballs</a>
+              <a class="dropdown-item" href="/jjk/checksheet">Jujutsu Kaisen S.H.Figuarts</a>
+              <a class="dropdown-item" href="/naruto/checksheet">Naruto S.H.Figuarts</a>
+              <a class="dropdown-item" href="/shma/checksheet">S.H.Monsterarts</a>
+            </div>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-expanded="false" style="color: orange !Important;">
+            <i class="far fa-image"></i> GALLERY
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/dbz/gallery">Dragonball S.H.Figuarts</a>
+            <a class="dropdown-item" href="/jjk/gallery">Jujutsu Kaisen S.H.Figuarts</a>
+            <a class="dropdown-item" href="/naruto/gallery">Naruto S.H.Figuarts</a>
+            <a class="dropdown-item" href="/shma/gallery">S.H.Monsterarts</a>
+          </div>
+        </li>
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-expanded="false" style="color: orange !Important;">
+              <i class="fa fa-clipboard-list"></i> Tamashii Surveys
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/dbz/survey">Dragonball S.H.Figuarts</a>
+              <a class="dropdown-item" href="/jjk/survey">Jujutsu Kaisen S.H.Figuarts</a>
+              <a class="dropdown-item" href="/naruto/survey">Naruto S.H.Figuarts</a>
+              <a class="dropdown-item" href="/shmonsterarts/survey">S.H.Monsterarts</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false" style="color: orange !Important;">
+              <i class="fas fa-external-link-alt"></i> PORTAL LINKS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/dbz">Dragonball S.H.Figuarts</a>
+              <a class="dropdown-item" href="/jjk">Jujutsu Kaisen S.H.Figuarts</a>
+              <a class="dropdown-item" href="/naruto">Naruto S.H.Figuarts</a>
+              <a class="dropdown-item" href="/shma">S.H.Monsterarts</a>
+            </div>
+          </li>
+        </ul>
+  
+  
+        <ul class="navbar-nav d-flex flex-row ml-auto">
+          <!-- Icons -->
+
+          <li class="nav-item mt-2 mr-3">
+            <form method="get" action="/search/">
+                    <input class="input is-rounded" name="query" type="text" placeholder="Search">
+            </form>
+          </li>
+
+
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link " href="https://www.discord.gg/dbzshf" rel="nofollow" target="_blank"><i class="fab fa-discord" style="font-size: xx-large; color: rgb(255, 174, 0);"></i></a>
+          </li>
+  
+          <li>
+              <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCGCEkqOeduK4s0aZaC-7IWA"><i class="fab fa-youtube" style="font-size: xx-large; color: rgb(255, 0, 0);"></i></a>
+          </li>
+          <li>
+              <a href="https://twitter.com/RockChala?ref_src=twsrc%5Etfw" class="nav-link" target="_blank" rel="noopener noreferrer"  data-show-count="false"><i class="fab fa-twitter" style="font-size: xx-large; color: rgb(15, 187, 255);"></i></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </li>
+          <li>
+              <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thegreatfiguman/"><i class="fab fa-instagram" style="font-size: xx-large; color: indianred;"></i></a>
+          </li>
+          <li>
+            <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/rockchala"><i class="fas fa-coffee" style="font-size: xx-large; color: rgb(150, 147, 126);"></i></a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+    
+    <div class="container">
+        <section class="mt-5 text-center">
+                <!-- middle grid section -->
+                    <div class="card mb-3 style2">
+                        <div class="card-body">
+                            <h2 class="card-text"><strong>S.H.Figuarts Dragonball Checklist Maker</strong></h2>
+                            <div class="card-subtile mb-2 text-white">Click on the box below the images to make your selection and click on the image to set the quantity! (Count resets after 20)</div>
+                            <button type="button" class="saveImg btn btn-success mb-2"><i class="far fa-save"> Download Checklist</i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="checksheet-bg" id="capture">
+                        <div class="check-title">
+                            <img class="check-title-img1" src="https://www.rockchala.com/static/dbzshf/logo/checklisticon.png" alt="DBZ SHF Checklist">
+
+                        </div>
+
+                        <div class="font-weight-bold" style="border-bottom: black solid thin;" id="generalReleases">General Releases</div>
+                        <div class="check-imgs">
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/1.jpg" id="img1" alt="Piccolo"/>
+                                <div class="mybox" id="box1"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/2.jpg" id="img2" alt="Super Saiyan Son Goku"/>
+                                <div class="mybox" id="box2"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/3.jpg" id="img3" alt="Gohan"/>
+                                <div class="mybox" id="box3"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/4.jpg" id="img4" alt="Super Saiyan Vegeta"/>
+                                <div class="mybox" id="box4"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/5.jpg" id="img5" alt="Super Saiyan 3 Son Goku"/>
+                                <div class="mybox" id="box5"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/6.jpg" id="img6" alt="Trunks"/>
+                                <div class="mybox" id="box6"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/7.jpg" id="img7" alt="Perfect Cell"/>
+                                <div class="mybox" id="box7"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/8.jpg" id="img8" alt="Vegeta"/>
+                                <div class="mybox" id="box8"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/9.jpg" id="img9" alt="Freeza Final Form"/>
+                                <div class="mybox" id="box9"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/10.jpg" id="img10" alt="Krillin"/>
+                                <div class="mybox" id="box10"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/11.jpg" id="img11" alt="Son Goku"/>
+                                <div class="mybox" id="box11"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/12.jpg" id="img12" alt="Android 18"/>
+                                <div class="mybox" id="box12"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/13.jpg" id="img13" alt="Android 17"/>
+                                <div class="mybox" id="box13"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/14.jpg" id="img14" alt="Broly"/>
+                                <div class="mybox" id="box14"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/15.jpg" id="img15" alt="Android 16"/>
+                                <div class="mybox" id="box15"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/16.jpg" id="img16" alt="Vegetto"/>
+                                <div class="mybox" id="box16"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/17.jpg" id="img17" alt="Ultimate Son Gohan"/>
+                                <div class="mybox" id="box17"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/18.jpg" id="img18" alt="Golden Freeza"/>
+                                <div class="mybox" id="box18"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/19.jpg" id="img19" alt="Super Saiyan God Super Saiyan Son Goku"/>
+                                <div class="mybox" id="box19"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/20.jpg" id="img20" alt="Super Saiyan Son Goku"/>
+                                <div class="mybox" id="box20"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/21.jpg" id="img21" alt="Super Saiyan Vegeta PC"/>
+                                <div class="mybox" id="box21"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/22.jpg" id="img22" alt="Trunks PC"/>
+                                <div class="mybox" id="box22"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/23.jpg" id="img23" alt="Beerus"/>
+                                <div class="mybox" id="box23"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/24.jpg" id="img24" alt="Super Saiyan God Super Saiyan Vegeta"/>
+                                <div class="mybox" id="box24"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/25.jpg" id="img25" alt="Super Saiyan Trunks"/>
+                                <div class="mybox" id="box25"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/26.jpg" id="img26" alt="Whis"/>
+                                <div class="mybox" id="box26"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/27.jpg" id="img27" alt="Super Saiyan Vegeta"/>
+                                <div class="mybox" id="box27"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/28.jpg" id="img28" alt="Super Saiyan Son Gohan"/>
+                                <div class="mybox" id="box28"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/29.jpg" id="img29" alt="Perfect Cell PC"/>
+                                <div class="mybox" id="box29"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/30.jpg" id="img30" alt="Trunks Xeno"/>
+                                <div class="mybox" id="box30"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/31.jpg" id="img31" alt="Time Patroler"/>
+                                <div class="mybox" id="box31"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/32.jpg" id="img32" alt="Vegeta 2.0"/>
+                                <div class="mybox" id="box32"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/33.jpg" id="img33" alt="Nappa"/>
+                                <div class="mybox" id="box33"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/34.jpg" id="img34" alt="Super Saiyan 3 Son Goku"/>
+                                <div class="mybox" id="box34"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/35.jpg" id="img35" alt="Kaioken Son Goku (Lottery)"/>
+                                <div class="mybox" id="box35"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/36.jpg" id="img36" alt="Shenron"/>
+                                <div class="mybox" id="box36"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/37.jpg" id="img37" alt="Super Saiyan God Son Goku"/>
+                                <div class="mybox" id="box37"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/38.jpg" id="img38" alt="Yamcha"/>
+                                <div class="mybox" id="box38"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/39.jpg" id="img39" alt="Tenshinhan"/>
+                                <div class="mybox" id="box39"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/40.jpg" id="img40" alt="Son Goku Young Years"/>
+                                <div class="mybox" id="box40"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/41.jpg" id="img41" alt="Goku Black"/>
+                                <div class="mybox" id="box41"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/42.jpg" id="img42" alt="Freeza Final Form Resurrection"/>
+                                <div class="mybox" id="box42"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/43.jpg" id="img43" alt="Majin vegeta"/>
+                                <div class="mybox" id="box43"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/44.jpg" id="img44" alt="Son Goku A Saiyan Raised on Earth"/>
+                                <div class="mybox" id="box44"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/45.jpg" id="img45" alt="Master Roshi"/>
+                                <div class="mybox" id="box45"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/46.jpg" id="img46" alt="Majin Buu Zen"/>
+                                <div class="mybox" id="box46"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/47.jpg" id="img47" alt="Bulma"/>
+                                <div class="mybox" id="box47"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/48.jpg" id="img48" alt="Super Saiyan Gotenks"/>
+                                <div class="mybox" id="box48"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/49.jpg" id="img49" alt="Future Trunks"/>
+                                <div class="mybox" id="box49"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/50.jpg" id="img50" alt="Krillin Young Years"/>
+                                <div class="mybox" id="box50"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/51.jpg" id="img51" alt="Mr Satan"/>
+                                <div class="mybox" id="box51"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/52.jpg" id="img52" alt="Great Saiyaman"/>
+                                <div class="mybox" id="box52"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/53.jpg" id="img53" alt="Majin Buu Evil"/>
+                                <div class="mybox" id="box53"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/54.jpg" id="img54" alt="Super Saiyan Broly Full Power"/>
+                                <div class="mybox" id="box54"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/55.jpg" id="img55" alt="Super Saiyan God Super Saiyan Gogeta"/>
+                                <div class="mybox" id="box55"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/56.jpg" id="img56" alt="Super Saiyan God Super Saiyan Vegeta"/>
+                                <div class="mybox" id="box56"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/57.jpg" id="img57" alt="Android 21"/>
+                                <div class="mybox" id="box57"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/58.jpg" id="img58" alt="Super Saiyan God Super Saiyan Son Goku"/>
+                                <div class="mybox" id="box58"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/59.jpg" id="img59" alt="Zamasu Potara"/>
+                                <div class="mybox" id="box59"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/60.jpg" id="img60" alt="Broly Super"/>
+                                <div class="mybox" id="box60"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/61.jpg" id="img61" alt="Piccolo Daimaoh"/>
+                                <div class="mybox" id="box61"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/62.jpg" id="img62" alt="Bulma Adventure Begins"/>
+                                <div class="mybox" id="box62"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/63.jpg" id="img63" alt="Jiren"/>
+                                <div class="mybox" id="box63"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/64.jpg" id="img64" alt="Tao Pai Pai"/>
+                                <div class="mybox" id="box64"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/65.jpg" id="img65" alt="Son Goku Ultra Instinct"/>
+                                <div class="mybox" id="box65"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/66.jpg" id="img66" alt="Jackie Chun"/>
+                                <div class="mybox" id="box66"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/67.jpg" id="img67" alt="Son Goku Kaioken"/>
+                                <div class="mybox" id="box67"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/68.jpg" id="img68" alt="Ginyu"/>
+                                <div class="mybox" id="box68"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/69.jpg" id="img69" alt="Great Ape Vegeta"/>
+                                <div class="mybox" id="box69"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/70.jpg" id="img70" alt="Chichi Young Years"/>
+                                <div class="mybox" id="box70"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/71.jpg" id="img71" alt="Bulma&#x27;s Bike Poipoi Capsule No.9"/>
+                                <div class="mybox" id="box71"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/72.jpg" id="img72" alt="Jiren Final Battle"/>
+                                <div class="mybox" id="box72"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/73.jpg" id="img73" alt="Zamasu"/>
+                                <div class="mybox" id="box73"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/74.jpg" id="img74" alt="Super Saiyan God Super Saiyan Vegetto"/>
+                                <div class="mybox" id="box74"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/75.jpg" id="img75" alt="Piccolo Proud Namekian"/>
+                                <div class="mybox" id="box75"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/76.jpg" id="img76" alt="Son Gohan Kid Era"/>
+                                <div class="mybox" id="box76"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/77.jpg" id="img77" alt="Jiece"/>
+                                <div class="mybox" id="box77"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/78.jpg" id="img78" alt="Bardock"/>
+                                <div class="mybox" id="box78"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/79.jpg" id="img79" alt="Recoome"/>
+                                <div class="mybox" id="box79"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/80.jpg" id="img80" alt="Raditz"/>
+                                <div class="mybox" id="box80"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/81.jpg" id="img81" alt="Freeza Base Form &amp; Freeza Pod"/>
+                                <div class="mybox" id="box81"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/82.jpg" id="img82" alt="Burter &amp; Guldo"/>
+                                <div class="mybox" id="box82"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/83.jpg" id="img83" alt="Son Goku Super Saiyan Full Power"/>
+                                <div class="mybox" id="box83"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/84.jpg" id="img84" alt="Hit"/>
+                                <div class="mybox" id="box84"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/85.jpg" id="img85" alt="Son Goku&#x27;s Harahachibunme Set"/>
+                                <div class="mybox" id="box85"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/86.jpg" id="img86" alt="Launch"/>
+                                <div class="mybox" id="box86"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/87.jpg" id="img87" alt="Goku Black Super Saiyan Rose"/>
+                                <div class="mybox" id="box87"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/88.jpg" id="img88" alt="Cooler Final Form"/>
+                                <div class="mybox" id="box88"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/89.jpg" id="img89" alt="Tenshinhan &amp; Chiaotzu"/>
+                                <div class="mybox" id="box89"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/90.jpg" id="img90" alt="Bulma Journey To Planet Namek"/>
+                                <div class="mybox" id="box90"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/91.jpg" id="img91" alt="Super Saiyan 4 Son Goku"/>
+                                <div class="mybox" id="box91"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/92.jpg" id="img92" alt="Android 18"/>
+                                <div class="mybox" id="box92"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/93.jpg" id="img93" alt="Android 17"/>
+                                <div class="mybox" id="box93"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/94.jpg" id="img94" alt="Krillin Earth&#x27;s Strongest Man"/>
+                                <div class="mybox" id="box94"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/95.jpg" id="img95" alt="Super Saiyan Kefla"/>
+                                <div class="mybox" id="box95"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/96.jpg" id="img96" alt="Freeza Fourth Form"/>
+                                <div class="mybox" id="box96"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/97.jpg" id="img97" alt="Dodoria"/>
+                                <div class="mybox" id="box97"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/98.jpg" id="img98" alt="Zarbon"/>
+                                <div class="mybox" id="box98"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/99.jpg" id="img99" alt="Piccolo Super Hero"/>
+                                <div class="mybox" id="box99"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/100.jpg" id="img100" alt="Son Goku Super Hero"/>
+                                <div class="mybox" id="box100"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/101.jpg" id="img101" alt="Vegeta Super Hero"/>
+                                <div class="mybox" id="box101"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/102.jpg" id="img102" alt="Ultimate Gohan Super Hero"/>
+                                <div class="mybox" id="box102"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/103.jpg" id="img103" alt="Son Gohan Battle Clothes"/>
+                                <div class="mybox" id="box103"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/104.jpg" id="img104" alt="Cell First Form"/>
+                                <div class="mybox" id="box104"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/105.jpg" id="img105" alt="Krillin Battle Clothes"/>
+                                <div class="mybox" id="box105"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/106.jpg" id="img106" alt="Super Saiyan 4 Vegeta"/>
+                                <div class="mybox" id="box106"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/107.jpg" id="img107" alt="Gamma 1"/>
+                                <div class="mybox" id="box107"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/108.jpg" id="img108" alt="Gamma 2"/>
+                                <div class="mybox" id="box108"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/109.jpg" id="img109" alt="Porunga &amp; Dende Lightup Dragonball Set"/>
+                                <div class="mybox" id="box109"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/110.jpg" id="img110" alt="Turles"/>
+                                <div class="mybox" id="box110"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/111.jpg" id="img111" alt="Freeza Second Form"/>
+                                <div class="mybox" id="box111"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/112.jpg" id="img112" alt="Pan Super Hero"/>
+                                <div class="mybox" id="box112"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/113.jpg" id="img113" alt="Super Saiyan Vegeta Awakened Super Saiyan Blood"/>
+                                <div class="mybox" id="box113"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/114.jpg" id="img114" alt="Super Saiyan Trunks Boy from the Future"/>
+                                <div class="mybox" id="box114"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/115.jpg" id="img115" alt="Broly Super Hero"/>
+                                <div class="mybox" id="box115"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/116.jpg" id="img116" alt="Freeza Third Form"/>
+                                <div class="mybox" id="box116"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/117.jpg" id="img117" alt="Son Gohan Beast"/>
+                                <div class="mybox" id="box117"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/118.jpg" id="img118" alt="Son Goku Effect Parts Set"/>
+                                <div class="mybox" id="box118"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/119.jpg" id="img119" alt="Orange Piccolo"/>
+                                <div class="mybox" id="box119"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/120.jpg" id="img120" alt="Android 19"/>
+                                <div class="mybox" id="box120"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/121.jpg" id="img121" alt="Trunks Infinite Latent Super Power"/>
+                                <div class="mybox" id="box121"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/122.jpg" id="img122" alt="Metal Cooler"/>
+                                <div class="mybox" id="box122"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/123.jpg" id="img123" alt="Super Saiyan Son Goku -Legendary Super Saiyan-"/>
+                                <div class="mybox" id="box123"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/124.jpg" id="img124" alt="Android 20"/>
+                                <div class="mybox" id="box124"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/125.jpg" id="img125" alt="Yamcha -Earths Foremost Fighter-"/>
+                                <div class="mybox" id="box125"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/126.jpg" id="img126" alt="Super Saiyan God Super Saiyan Vegeta S.H.Figuarts 15th Anniversary Ver"/>
+                                <div class="mybox" id="box126"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                
+                                    <i class="fas fa-store-alt retail"></i>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/127.jpg" id="img127" alt="Son Goku GT"/>
+                                <div class="mybox" id="box127"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/128.jpg" id="img128" alt="Mecha Frieza"/>
+                                <div class="mybox" id="box128"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/main/129.jpg" id="img129" alt="Son Goku Ultra Instinct Toyotarou Edition"/>
+                                <div class="mybox" id="box129"></div>
+                            </div>
+                            
+
+                        </div>
+
+                        <!-- EVENT FIGURES -->
+                        <div class="font-weight-bold" style="border-bottom: black solid thin;" id="eventReleases">Event Exclusives</div>
+
+                        <div class="check-imgs">
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/1.jpg" id="imgEE1" alt="Super Saiyan Son Goku SDCC Exclusive"/>
+                                <div class="mybox" id="boxEE1"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/2.jpg" id="imgEE2" alt="Super Saiyan Son Gohan SDCC Exclusive"/>
+                                <div class="mybox" id="boxEE2"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/3.jpg" id="imgEE3" alt="Piccolo SDCC Exclusive"/>
+                                <div class="mybox" id="boxEE3"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/4.jpg" id="imgEE4" alt="Vegeta Animation Color Ver"/>
+                                <div class="mybox" id="boxEE4"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/5.jpg" id="imgEE5" alt="Son Goku Freeza Saga Ver"/>
+                                <div class="mybox" id="boxEE5"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/6.jpg" id="imgEE6" alt="Broly Premium Color Edition"/>
+                                <div class="mybox" id="boxEE6"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/7.jpg" id="imgEE7" alt="Son Goku Kaioken Ver [USA]"/>
+                                <div class="mybox" id="boxEE7"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/8.jpg" id="imgEE8" alt="Super Saiyan God Super Saiyan Vegetto"/>
+                                <div class="mybox" id="boxEE8"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/9.jpg" id="imgEE9" alt="Broly Event Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE9"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/10.jpg" id="imgEE10" alt="Perfect Cell Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE10"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/11.jpg" id="imgEE11" alt="Son Goku Event Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE11"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/12.jpg" id="imgEE12" alt="Goku Black Super Saiyan Rose Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE12"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/13.jpg" id="imgEE13" alt="Ultimate Son Gohan Event Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE13"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/14.jpg" id="imgEE14" alt="Golden Freeza Event Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE14"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/15.jpg" id="imgEE15" alt="Bulma Event Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE15"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/16.jpg" id="imgEE16" alt="Son Goku Kid Era Adventure Begins"/>
+                                <div class="mybox" id="boxEE16"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/17.jpg" id="imgEE17" alt="Son Goku Ultra Instinct Sign Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE17"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/18.jpg" id="imgEE18" alt="Android 17 Event Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE18"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/19.jpg" id="imgEE19" alt="Android 18 Event Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE19"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/20.jpg" id="imgEE20" alt="Super Saiyan Son Goku Clone Event Exclusive"/>
+                                <div class="mybox" id="boxEE20"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/21.jpg" id="imgEE21" alt="Super Saiyan God Son Goku Event Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE21"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/22.jpg" id="imgEE22" alt="Whis Event Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE22"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/23.jpg" id="imgEE23" alt="Beerus Event Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE23"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/24.jpg" id="imgEE24" alt="Nappa Event Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE24"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/25.jpg" id="imgEE25" alt="Super Saiyan God Super Saiyan Son Goku Kaioken Event Exclusive Color Edition"/>
+                                <div class="mybox" id="boxEE25"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/26.jpg" id="imgEE26" alt="Android 21 Lab Coat Event Exclusive"/>
+                                <div class="mybox" id="boxEE26"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/27.jpg" id="imgEE27" alt="Son Goku Ultra Instinct Sign Tamashii Store Event Exclusive"/>
+                                <div class="mybox" id="boxEE27"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/28.jpg" id="imgEE28" alt="Super Saiyan 2 Son Goku Exclusive Edition"/>
+                                <div class="mybox" id="boxEE28"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/29.jpg" id="imgEE29" alt="Majin Buu -Good- Exclusive Edition"/>
+                                <div class="mybox" id="boxEE29"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/30.jpg" id="imgEE30" alt="Android 16 Exclusive Edition"/>
+                                <div class="mybox" id="boxEE30"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/31.jpg" id="imgEE31" alt="Shenron Exclusive Edition"/>
+                                <div class="mybox" id="boxEE31"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/32.jpg" id="imgEE32" alt="Broly Exclusive Edition"/>
+                                <div class="mybox" id="boxEE32"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/33.jpg" id="imgEE33" alt="Super Saiyan Son Goku Exclusive Edition"/>
+                                <div class="mybox" id="boxEE33"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/34.jpg" id="imgEE34" alt="Super Saiyan Son Goku &amp; Super Saiyan 2 Son Gohan -Exclusive Edition-"/>
+                                <div class="mybox" id="boxEE34"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/35.jpg" id="imgEE35" alt="Raditz &amp; Son Gohan Kid -Exclusive Edition-"/>
+                                <div class="mybox" id="boxEE35"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/36.jpg" id="imgEE36" alt="Majin Vegeta -Exclusive Edition-"/>
+                                <div class="mybox" id="boxEE36"></div>
+                            </div>
+                            
+                            <div class="checkgroup" >
+                                  
+                                    <img style="border: white; max-width: 60%; transform: translateY(40%);" src="https://www.rockchala.com/static/dbzshf/logo/tn_logo2.png" alt="Web Exclusive"/>
+                                
+                                <img src="https://www.rockchala.com/static/dbzshf/gallery_images/reference/event/37.jpg" id="imgEE37" alt="Son Goku -Innocent Challenger-"/>
+                                <div class="mybox" id="boxEE37"></div>
+                            </div>
+                            
+                        </div>
+                        <div class="font-weight-bold mt-2" style="border-top: black solid thin;" id="totalFigs"></div>
+                        <div class="font-weight-bold mt-1" style="border-bottom: black solid thin;" >Visit Rockchala.com for information & images on every figure and reviews for the latest releases!</div>
+
+                    </div>
+
+
+        </section>
+    </div>
+
+    
+<!--Footer-->
+<footer class="bg-dark text-lg-start text-white mt-3">
+
+    <hr class="m-0 bg-light" />
+
+    <div class="text-center py-4 align-items-center">
+      <h3 class="mb-4">Join us at 'Global DB SHFiguarts Collectors' Discord Channel</h3>
+      <a href="https://www.discord.gg/dbzshf" class="btn-lg btn-warning m-2 mt-2" role="button"
+        rel="nofollow" target="_blank">
+        <i class="fab fa-discord"></i>
+      </a>
+
+    </div>
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <a class="text-light" href="/contact"> <i class="fas fa-envelope"></i> ROCKCHALA (Contact Us)</a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <a>© ROCKCHALA 2022. All Rights Reserved</a>
+    </br>
+    <a>© BIRD STUDIO/SHUEISHA, TOEI ANIMATION, © Gege Akutami/Shueisha, JUJUTSU KAISEN Project, ©2002 MASASHI KISHIMOTO/2007 SHIPPUDEN All Rights Reserved., TM & © Toho Co., Ltd. © Warner Bros. Entertainment Inc.</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!--Footer-->
+
+    <script>
+        var countArray;
+
+        function initDiv(){
+            var numBox = "129";
+            countArray = Array(numBox).fill(0);
+            for(i = 0; i < numBox; i++){
+                assignDiv(i);
+            }
+        }
+
+        function assignDiv(i){
+            let div = document.getElementById("box" + (i+1));
+            var own = "#33cc00"; // Green
+            var want = "#ff9900";  // Orange
+            var preorder = "#0099ff"; // Blue
+            var maybe = "#ffff00";  // Yellow
+            var base = "#ffffff";
+
+            countArray[i] = 1;
+            div.onclick = function() {
+                if(countArray[i] == 0) {
+                    div.style.background = base;
+                    countArray[i] ++;
+                } else if (countArray[i] == 1){
+                    div.style.background = own;
+                    countArray[i] ++;
+                } else if (countArray[i] == 2){
+                    div.style.background = preorder;
+                    countArray[i] ++;
+                } else if (countArray[i] == 3){
+                    div.style.background = want;
+                    countArray[i] ++;
+                } else if (countArray[i] == 4){
+                    div.style.background = maybe;
+                    countArray[i] ++;
+                } 
+                if (countArray[i] > 4) {
+                    countArray[i] = 0;
+                }
+            }
+        }
+    </script>
+
+    <script>
+        var countArray1;
+        var totalFig = 0;
+        function initDiv1(){
+            var numImg1 = "129";
+            countArray1 = Array(numImg1).fill(0);
+            for(i = 0; i < numImg1; i++){
+                assignDiv1(i);
+            }
+        }
+        function assignDiv1(i){
+            let div = document.getElementById("img" + (i+1));
+            countArray1[i] = 1;
+            div.onclick = function() {
+                    if (countArray1[i] == 0){
+                        document.getElementById("box" + (i+1)).innerHTML = "";
+                    } else {
+                        document.getElementById("box" + (i+1)).innerHTML = countArray1[i];
+                    }
+                    countArray1[i] ++;
+                    totalFig ++;
+                    document.getElementById("generalReleases").innerHTML = `General Releases - Total: ${totalFig}`
+                    if (countArray1[i] > 20) {
+                        totalFig = totalFig - countArray1[i]
+                        countArray1[i] = 0;
+                    }
+                }
+        }
+    </script>
+
+    <!-- EVENT BELOW -->
+    <script>
+        var countArrayEE;
+    
+        function initDivEE(){
+            var numBoxEE = "37";
+            countArrayEE = Array(numBoxEE).fill(0);
+            for(i = 0; i < numBoxEE; i++){
+                assignDivEE(i);
+            }
+        }
+    
+        function assignDivEE(i){
+            let div = document.getElementById("boxEE" + (i+1));
+            var ownEE = "#33cc00"; // Green
+            var wantEE = "#ff9900";  // Orange
+            var preorderEE = "#0099ff"; // Blue
+            var maybeEE = "#ffff00";  // Yellow
+            var baseEE = "#ffffff";
+    
+            countArrayEE[i] = 1;
+            div.onclick = function() {
+                if(countArrayEE[i] == 0) {
+                    div.style.background = baseEE;
+                    countArrayEE[i] ++;
+                } else if (countArrayEE[i] == 1){
+                    div.style.background = ownEE;
+                    countArrayEE[i] ++;
+                } else if (countArrayEE[i] == 2){
+                    div.style.background = preorderEE;
+                    countArrayEE[i] ++;
+                } else if (countArrayEE[i] == 3){
+                    div.style.background = wantEE;
+                    countArrayEE[i] ++;
+                } else if (countArrayEE[i] == 4){
+                    div.style.background = maybeEE;
+                    countArrayEE[i] ++;
+                } 
+                if (countArrayEE[i] > 4) {
+                    countArrayEE[i] = 0;
+                }
+            }
+        }
+    </script>
+    
+    <script>
+        var countArray1EE;
+        var totalFigEE = 0;
+        function initDiv1EE(){
+            var numImg1EE = "37";
+            countArray1EE = Array(numImg1EE).fill(0);
+            for(i = 0; i < numImg1EE; i++){
+                assignDiv1EE(i);
+            }
+        }
+        function assignDiv1EE(i){
+            let div = document.getElementById("imgEE" + (i+1));
+            countArray1EE[i] = 1;
+            div.onclick = function() {
+                    if (countArray1EE[i] == 0){
+                        document.getElementById("boxEE" + (i+1)).innerHTML = "";
+                    } else {
+                        document.getElementById("boxEE" + (i+1)).innerHTML = countArray1EE[i];
+                    }
+                    countArray1EE[i] ++;
+                    totalFigEE ++;
+                    document.getElementById("eventReleases").innerHTML = `Event Releases - Total: ${totalFigEE}`
+                    if (countArray1EE[i] > 20) {
+                        totalFigEE = totalFigEE - countArray1EE[i]
+                        countArray1EE[i] = 0;
+                    }
+                }
+        }
+    </script>
+
+</body>
+<script>
+    window.onload=function(){
+        initDiv();
+        initDiv1();
+        initDivEE();
+        initDiv1EE();
+    }
+    document.querySelector('.saveImg').addEventListener('click', function() {
+       // if(screen.width < 1024) {
+       // document.getElementById("viewport").setAttribute("content", "width=1200px");
+       // }
+
+        document.getElementById('capture').style.minWidth = "1500px";
+    html2canvas(document.querySelector('.checksheet-bg'), {
+        scale: 5,
+        onrendered: function(canvas) {
+        return Canvas2Image.saveAsPNG(canvas);
+        }
+    });
+    
+    document.getElementById('capture').style.minWidth = "150px";
+    document.getElementById("viewport").setAttribute("content", "width=device-width, initial-scale=1.0");
+    });
+</script>
+</html>
