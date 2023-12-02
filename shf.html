@@ -643,7 +643,7 @@ h2 {
                     <div class="card mb-3 style2">
                         <div class="card-body">
                             <h2 class="card-text"><strong>S.H.Figuarts Dragonball Checklist Maker</strong></h2>
-                            <div class="card-subtile mb-2 text-white">Click on the box below the images to make your selection and click on the image to set the quantity! (Count resets after 20)</div>
+                            <div class="card-subtile mb-2 text-white">Click on the box below the images to make your selection and click on the image to set the quantity! (Count resets after 8)</div>
                             <button type="button" class="saveImg btn btn-success mb-2"><i class="far fa-save"> Download Checklist</i></button>
                         </div>
                     </div>
@@ -2144,7 +2144,7 @@ h2 {
                     countArray1EE[i] ++;
                     totalFigEE ++;
                     document.getElementById("eventReleases").innerHTML = `Event Releases - Total: ${totalFigEE}`
-                    if (countArray1EE[i] > 20) {
+                    if (countArray1EE[i] > 8) {
                         totalFigEE = totalFigEE - countArray1EE[i]
                         countArray1EE[i] = 0;
                     }
